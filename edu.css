@@ -1,0 +1,426 @@
+
+
+
+body
+{
+	margin:0px;
+	padding:0px;
+	font-family: sans-serif;
+
+}
+
+nav
+{
+	width: 100%;
+	background-color:  #8accc3;
+	position: fixed;
+}
+ul
+{
+	width: 80%;
+	margin: 0 auto;
+	padding:0;
+}
+ul li
+{
+	list-style: none;
+	display: inline-block;
+	padding:20px;
+}
+ul li:hover
+{
+	background-color: blue;
+	color: white;
+}
+ul li a
+{
+	color: black;
+	text-decoration: none;
+}
+.toggle
+{
+	width: 100%;
+	padding: 10px 20px;
+	background-color: orange;
+	text-align: right;
+	box-sizing: border-box;
+	color: black;
+	font-size: 30px;
+	display: none;
+
+	
+}
+.img
+{
+	height: 100%;
+	background-image: url('../educateria0000/im1.jpg');
+	background-attachment: fixed;
+}
+
+.copy
+{
+	width: 70%;
+	margin-left: 15%;
+	
+}
+
+h3:after
+{
+	width: 100px;
+	height: 2px;
+	background-color: red;
+	display: block;
+	content:" "; 
+	margin: 0 auto; 
+	margin-top: 30px;
+}
+
+.feature h3
+{
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+
+.container
+{
+	width: 800px;
+	margin:50px auto;
+	display: table;
+	box-sizing: border-box;
+	transition: .5s;
+}
+
+.row
+{
+	margin: 10px 0;
+	transition: .5s;
+	
+}
+.column
+{
+	background: #000;
+	display: table-cell;
+	padding: 10px;
+	width: 33.33333%;
+	text-align:center;
+	color:#fff;
+	vertical-align: middle;
+	border-right: 10px solid #fff;
+		border-left: 10px solid #fff;
+		transition: .5s;
+
+}
+.row:nth-child(1) .column:nth-child(1)
+{
+	background: #596270;
+}
+.row:nth-child(1) .column:nth-child(2)
+{
+	background: #cf6768;
+}
+.row:nth-child(1) .column:nth-child(3)
+{
+	background: #8accc3;
+}
+.row:nth-child(2) .column:nth-child(1)
+{
+	background: #596270;
+}
+.row:nth-child(2) .column:nth-child(2)
+{
+	background: #cf6768;
+}
+.row:nth-child(2) .column:nth-child(3)
+{
+	background: #8accc3;
+}
+.text
+{
+	text-align: center;
+border-bottom: 5px  solid red;
+
+
+	
+}
+
+
+//contact form start here........///............///.......
+
+
+.wrapper {
+  margin: 100px auto 0;
+  width: 100%;
+  max-width: 680px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* content */
+.content {
+  text-align: center;
+}
+
+.content h1 {
+  letter-spacing: 1px;
+}
+
+
+/* form */
+.form {
+  width: 100%;
+  margin: 25px 0;
+}
+
+.top-form,
+.middle-form,
+.bottom-form {
+  width: 100%;
+  min-height: 65px;
+  margin: 10px 0;
+}
+
+.form input[type="text"],
+.form textarea {
+  border: 2px solid #fff;
+  padding: 15px 5px;
+  outline: none;
+  border-radius: 2px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: all 0.2s ease;
+}
+
+.form input:focus,
+.form textarea:focus {
+  border-color: #4ca1af;
+  outline: none;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.0125),
+    0 0 8px rgba(76, 161, 175, 0.5);
+}
+
+.form .label {
+  margin-bottom: 5px;
+  text-transform: capitalize;
+}
+
+/* top-contact */
+.top-form .inner-form {
+  width: 29.9%;
+  float: left;
+  margin-right: 5%;
+}
+
+.top-form .inner-form:last-child {
+  margin-right: 0;
+}
+
+
+/* middle-form */
+.middle-form {
+  clear: both;
+}
+
+/* bottom-form */
+.bottom-form textarea {
+  height: 120px;
+}
+
+.btn {
+  background: #4ca1af;
+  width: 200px;
+  padding: 10px 0;
+  border-radius: 2px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  cursor: pointer;
+}
+
+
+
+}
+
+
+.d1{
+  width: 70%;
+  height: 100%;
+  overflow: hidden;
+  float: left;
+    background-image: url('../educateria0000/im1.jpg');
+}
+.login{
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+  max-width: 500px;
+  right: 0;
+  margin: 0;
+  background: #fff;
+  height: 100%;
+  z-index: 1;
+}
+.login form{
+  margin: 160px 30px;
+}
+.login h2{
+  font-size: 30px;
+  color: #f44336;
+}
+.login label{
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 8px 0
+}
+.txtb{
+  width: 100%;
+  padding: 8px 0;
+  font-size: 18px;
+}
+.check{
+  margin: 8px 0;
+}
+.btn{
+  display: block;
+  float: right;
+  background: #f44336;
+  font-size: 18px;
+  padding: 8px 50px;
+  color: white;
+  border: none;
+}
+.socialmedia{
+  position: absolute;
+  height: 50px;
+  width: 250px;
+  bottom: 250px;
+  right: 125px;
+  z-index: 2;
+  font-size: 0;
+}
+
+.social{
+height: 50px;
+width: 50px;
+display: inline-block;
+transition: transform 0.5s ease;
+}
+
+.social:hover{
+  transform: translateY(-10px);
+  /* animation: heryone 5s ease; */
+
+}
+
+/* @keyframes heryone {
+  from{
+    height: 50px;
+    width: 50px;
+  }
+  to{
+    height: 100px;
+    width: 100px;
+  }
+} */
+
+.social:first-of-type{
+  background: url();
+  background-size: contain;
+}
+
+.social:nth-of-type(2){
+  background: url(...);
+  background-size: contain;
+  }
+  .social:nth-of-type(5){
+    background: url(...);
+    background-size: contain;
+  }
+  .social:nth-of-type(4){
+background: url(...);
+background-size: contain;
+
+  }
+  .social:nth-of-type(3){
+    background: url(...);
+    background-size: contain;
+  }
+
+
+
+
+
+
+
+
+
+@media(max-width: 768px)
+{
+.toggle
+{
+	display: block;
+}	
+ul
+{
+	width: 100%;
+	display: none;
+
+	
+}
+ul li
+{
+	display: block;
+	text-align: center;
+}
+.active
+{
+	display: block;
+}
+.container
+{
+	margin: 0;
+	padding: 10px;
+	width: 100%;
+}
+.column
+{
+	width: 100%;
+	display: block;
+	margin: 10px 0;
+	border:none;
+	box-sizing: border-box;
+}
+.row
+{
+	margin: 0;
+}
+
+
+//contact form
+
+.wrapper {
+    margin: 25px auto 0;
+  }
+  .top-form .inner-form {
+    width: 100%;
+    margin: 5px 0;
+  }
+  .top-form,
+  .middle-form,
+  .bottom-form {
+    margin: 5px 0;
+  }
+  .form {
+    margin-top: 10px;
+  }
+  .form input[type="text"],
+  .form textarea {
+     width: 100%;
+     box-sizing: border-box;
+  }
+
+
+}
+/////////login
